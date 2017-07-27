@@ -60,7 +60,7 @@ function! airline#themes#solarized#refresh()
   """"""""""""""""""""""""""""""""""""""""""""""""
   " Normal mode
   if s:background == 'dark'
-    let s:N1 = [s:base3, (s:use_green ? s:green : s:base1), 'bold']
+    let s:N1 = [s:base03, (s:use_green ? s:green : s:base1), 'bold']
     let s:N2 = [s:base2, (s:tty ? s:base01 : s:base00), '']
     let s:N3 = [s:base01, s:base02, '']
   else
